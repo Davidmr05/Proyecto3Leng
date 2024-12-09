@@ -26,3 +26,18 @@ DSL_ML es un lenguaje de dominio específico diseñado para realizar procesos de
    Instala las siguientes bibliotecas necesarias:
    ```bash
    pip install antlr4-python3-runtime numpy matplotlib scikit-learn
+
+
+
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install antlr4-python3-runtime numpy matplotlib scikit-learn
+
+antlr4 -Dlanguage=Python3 -visitor DSL_ML.g4
+
+python interpreter.py mi_script.dsl
+
+
