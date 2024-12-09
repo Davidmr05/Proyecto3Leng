@@ -41,3 +41,20 @@ antlr4 -Dlanguage=Python3 -visitor DSL_ML.g4
 python interpreter.py mi_script.dsl
 
 
+
+PRUEBAS DE ENTRADAS PARA IR VIENDO QUE FALTA Y QUE ESTA QUEDANDO MAL PARA NO HACER TODO AL TIEMPO SI NO IR IMPLEMENTANDOM POCO A POCO LO QUE NOS PIDE EL PROYECTO: 
+
+El proyecto nos pide lo siguiente: 
+Basándose en Python, el lenguaje de programación deberá ser capaz de:
+• Hacer operaciones aritméticas: suma, resta, multiplicación, 
+división, modulo, calculo de raíces de la forma x^y, operaciones 
+trigonométricas, etc.
+• Hacer operaciones de matrices: suma, resta, multiplicación, Inversa, 
+transpuesta
+• Realizar las operaciones de condicionales y ciclos for y/o While
+• Realizar graficas de datos.
+• Manejar archivos, lectura y escritura de archivos de texto.
+• Crear funciones para hacer regresión lineal.
+• Crear un clasificador usando un percepton multicapa
+• Crear algoritmos que puedan hacer agrupamiento
+
