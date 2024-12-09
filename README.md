@@ -20,7 +20,9 @@ DSL_ML es un lenguaje de dominio específico diseñado para realizar procesos de
 ## Instalación
 
 ### Requisitos previos
-1. Python 3.9 o superior.
-2. Instalación de ANTLR v4 y su runtime para Python:
+1. **Python**: Asegúrate de tener instalado Python 3.9 o superior.
+2. **ANTLR v4**: Descarga ANTLR desde su [sitio oficial](https://www.antlr.org/) y configúralo en tu sistema.
+3. **Bibliotecas Python**:
+   Instala las siguientes bibliotecas necesarias:
    ```bash
-   pip install antlr4-python3-runtime
+   pip install antlr4-python3-runtime numpy matplotlib scikit-learn
