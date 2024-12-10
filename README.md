@@ -102,20 +102,12 @@ print("Coseno:", coseno);
 Prueba 3: Condicionales
 
 // Prueba de condicionales
-var x = 10;
-var y = 5;
+vx = 5;
 
-if (x > y) then {
-    print("x es mayor que y");
-} else {
-    print("x no es mayor que y");
+for (x = 5; x > 0; x--) {
+    print(x);
 }
 
-if (x == 10) then {
-    print("x es igual a 10");
-} else {
-    print("x no es igual a 10");
-}
 
 Prueba 4: Bucles
 
